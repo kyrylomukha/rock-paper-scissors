@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icons/favicon.png">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <section>
+        <h1>rock paper scissors</h1>
+        <p class="description">best of five: first to win three rounds wins game</p>
+        <div class="buttons">
+            <div class="btn" id="rockBtn">
+                <img src="icons/rock.svg" alt="rock">
+            </div>
+            <div class="btn" id="paperBtn">
+                <img src="icons/paper.svg" id="middle-button" alt="paper">
+            </div>
+            <div class="btn" id="scissorsBtn">
+                <img src="icons/scissors.svg" alt="scissors">
+            </div>
+        </div>
+        <div class="game-window">
+            <div class="window-left">
+                <h2 id="player-choice-text">Your choice</h2>
+                <div class="player-choice">
+
+                </div>
+            </div>
+            <div class="window-center">
+                <h2 id="rounds-counter">Round 0</h2>
+                <p id="scores">You chose: 0 computer's score: 0
+                </p>
+                <div class="game-results">
+                    <p class="inbox-text">Time to make a choice</p>
+                </div>
+            </div>
+            <div class="window-right">
+                <h2 id="pc-choice-text">Computer chose</h2>
+                <div class="pc-choice">
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
